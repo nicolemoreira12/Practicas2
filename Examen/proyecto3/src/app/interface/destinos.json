@@ -1,0 +1,99 @@
+{
+  "destinos": [
+    {
+      "nombre": "Playa del Carmen",
+      "informacion": "Destino turístico en la Riviera Maya, famoso por sus playas y vida nocturna.",
+      "categorias": ["playa", "turismo", "aventura"],
+      "imagen": "playa-del-carmen.jpg",
+      "paquete": "Familiar",
+      "metodoDePago": "Tarjeta de crédito",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Ciudad de México",
+      "informacion": "Capital de México, rica en cultura, historia y gastronomía.",
+      "categorias": ["ciudad", "cultura", "historia"],
+      "imagen": "cdmx.jpg",
+      "paquete": "Cultural",
+      "metodoDePago": "Efectivo",
+      "trasporte": "Autobús"
+    },
+    {
+      "nombre": "Cancún",
+      "informacion": "Destino internacionalmente conocido por sus resorts y playas de arena blanca.",
+      "categorias": ["playa", "resort", "lujo"],
+      "imagen": "cancun.jpg",
+      "paquete": "Todo incluido",
+      "metodoDePago": "Transferencia bancaria",
+      "trasporte": "Avión"
+    }
+  ],
+  "categorias": {
+    "lugares": ["Playa", "Ciudad", "Montaña", "Selva"],
+    "actividades": ["Nado", "Excursión", "Museos", "Deportes"],
+    "gastronomia": ["Tacos", "Mariscos", "Comida internacional"],
+    "cultura": ["Maya", "Azteca", "Colonial"]
+  },
+  "paquetes": [
+    {
+      "nombre": "Paquete Riviera Maya",
+      "descripcion": "Incluye hospedaje en hotel 5 estrellas, transporte y tour por cenotes.",
+      "precio": 12000,
+      "destinos": ["Playa del Carmen", "Cancún"],
+      "transporte": "Avión",
+      "hospedaje": "Hotel 5 estrellas",
+      "tour": "Cenotes y ruinas mayas"
+    },
+    {
+      "nombre": "Paquete Ciudad de México",
+      "descripcion": "Hospedaje céntrico, transporte y tour gastronómico y cultural.",
+      "precio": 8000,
+      "destinos": ["Ciudad de México"],
+      "transporte": "Autobús",
+      "hospedaje": "Hotel 4 estrellas",
+      "tour": "Museos y gastronomía local"
+    }
+  ],
+  "metodosDePago": [
+    {
+      "id": "mp1",
+      "tipo": "Tarjeta de crédito",
+      "detalles": "Visa, MasterCard, American Express",
+      "paquete": "Paquete Riviera Maya"
+    },
+    {
+      "id": "mp2",
+      "tipo": "Efectivo",
+      "detalles": "Pago en destino",
+      "paquete": "Paquete Ciudad de México"
+    },
+    {
+      "id": "mp3",
+      "tipo": "Transferencia bancaria",
+      "detalles": "Banco Nacional, Clabe 123456789",
+      "paquete": "Paquete Riviera Maya"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "r1",
+      "usuario": "Juan Pérez",
+      "destino": "Playa del Carmen",
+      "paquete": "Paquete Riviera Maya",
+      "fecha": "2025-08-10",
+      "cantidadPersonas": 2,
+      "metodoDePago": "Tarjeta de crédito",
+      "estado": "confirmada"
+    },
+    {
+      "id": "r2",
+      "usuario": "Ana López",
+      "destino": "Ciudad de México",
+      "paquete": "Paquete Ciudad de México",
+      "fecha": "2025-09-05",
+      "cantidadPersonas": 4,
+      "metodoDePago": "Efectivo",
+      "estado": "pendiente"
+    }
+  ]
+}
