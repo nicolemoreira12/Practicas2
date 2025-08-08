@@ -1,0 +1,53 @@
+{
+  "destinos": [
+    {
+      "nombre": "Playa del Carmen",
+      "informacion": "Destino turístico en la Riviera Maya, famoso por sus playas y vida nocturna.",
+      "descripcion": "Playa del Carmen es uno de los destinos más visitados de México, con aguas cristalinas, actividades acuáticas, vida nocturna y cercanía a sitios arqueológicos.",
+      "categorias": ["relax", "aventura"],
+      "imagen": "playa-del-carmen.jpg",
+      "galeria": ["playa-del-carmen1.jpg", "playa-del-carmen2.jpg"],
+      "paquete": "Familiar",
+      "metodoDePago": "Tarjeta de crédito",
+      "trasporte": "Avión"
+    }
+  ],
+  "categorias": {
+    "relax": ["Playa", "Spa", "Resort", "Montaña"],
+    "aventura": ["Excursión", "Deportes extremos", "Senderismo", "Alpinismo"],
+    "cultura": ["Museos", "Gastronomía", "Historia", "Arte"],
+    "naturaleza": ["Montaña", "Cascada", "Selva", "Parque"]
+  },
+  "paquetes": [
+    {
+      "nombre": "Paquete Riviera Maya",
+      "descripcion": "Incluye hospedaje en hotel 5 estrellas, transporte y tour por cenotes.",
+      "precio": 12000,
+      "destinos": ["Playa del Carmen"],
+      "transporte": "Avión",
+      "hospedaje": "Hotel 5 estrellas",
+      "tour": "Cenotes y ruinas mayas",
+      "imagen": "playa-del-carmen.jpg"
+    }
+  ],
+  "metodosDePago": [
+    {
+      "id": "mp1",
+      "tipo": "Tarjeta de crédito",
+      "detalles": "Visa, MasterCard, American Express",
+      "paquete": "Paquete Riviera Maya"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "r1",
+      "usuario": "Juan Pérez",
+      "destino": "Playa del Carmen",
+      "paquete": "Paquete Riviera Maya",
+      "fecha": "2025-08-10",
+      "cantidadPersonas": 2,
+      "metodoDePago": "Tarjeta de crédito",
+      "estado": "confirmada"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "destinos": [
+    {
+      "nombre": "Playa de wendy",
+      "informacion": "Destino turístico en la Riviera Maya, famoso por sus playas y vida nocturna.",
+      "descripcion": "Playa del Carmen es uno de los destinos más visitados de México, con aguas cristalinas, actividades acuáticas, vida nocturna y cercanía a sitios arqueológicos.",
+      "categorias": ["relax", "aventura"],
+      "imagen": "img/playas del carmen.jpg",
+      "galeria": ["playa-del-carmen1.jpg", "playa-del-carmen2.jpg"],
+      "paquete": "Familiar",
+      "metodoDePago": "Tarjeta de crédito",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Ciudad de México",
+      "informacion": "Capital de México, rica en cultura, historia y gastronomía.",
+      "descripcion": "La Ciudad de México ofrece museos, gastronomía internacional, arquitectura colonial y moderna, y una vibrante vida urbana.",
+      "categorias": ["cultura"],
+      "imagen": "img/ciudad de mexico.jpeg",
+      "galeria": ["cdmx1.jpg", "cdmx2.jpg"],
+      "paquete": "Cultural",
+      "metodoDePago": "Efectivo",
+      "trasporte": "Autobús"
+    },
+    {
+      "nombre": "Cancún",
+      "informacion": "Destino internacionalmente conocido por sus resorts y playas de arena blanca.",
+      "descripcion": "Cancún es famoso por sus hoteles de lujo, actividades acuáticas, vida nocturna y cercanía a islas paradisíacas.",
+      "categorias": ["relax"],
+      "imagen": "img/cancun.jpeg",
+      "galeria": ["cancun1.jpg", "cancun2.jpg"],
+      "paquete": "Todo incluido",
+      "metodoDePago": "Transferencia bancaria",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "París",
+      "informacion": "La ciudad de la luz, famosa por la Torre Eiffel, museos y gastronomía.",
+      "descripcion": "París es el destino romántico por excelencia, con monumentos icónicos, arte y cultura mundial.",
+      "categorias": ["cultura", "relax"],
+      "imagen": "img/paris.jpg",
+      "paquete": "Romántico",
+      "metodoDePago": "Tarjeta de crédito",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Tokio",
+      "informacion": "Capital de Japón, mezcla de tecnología, tradición y gastronomía única.",
+      "descripcion": "Tokio ofrece templos, rascacielos, cultura pop y una experiencia culinaria inigualable.",
+      "categorias": ["cultura", "aventura"],
+      "imagen": "img/japon.jpeg",
+      "paquete": "Cultural",
+      "metodoDePago": "Efectivo",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Roma",
+      "informacion": "Capital de Italia, famosa por su historia, arquitectura y gastronomía.",
+      "descripcion": "Roma es conocida por el Coliseo, la Fontana di Trevi y su ambiente histórico y artístico.",
+      "categorias": ["cultura"],
+      "imagen": "img/roma.jpg",
+      "paquete": "Histórico",
+      "metodoDePago": "Transferencia bancaria",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Cataratas del Iguazú",
+      "informacion": "Maravilla natural ubicada entre Argentina y Brasil, famosa por sus impresionantes cascadas.",
+      "descripcion": "Las Cataratas del Iguazú ofrecen senderismo, paseos en bote y vistas espectaculares de la selva subtropical.",
+      "categorias": ["naturaleza", "aventura"],
+  "imagen": "img/cataratas del Iguazu.jpeg",
+      "paquete": "Aventura",
+      "metodoDePago": "Tarjeta de crédito",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Monte Everest",
+      "informacion": "La montaña más alta del mundo, ubicada en la frontera entre Nepal y China.",
+      "descripcion": "El Everest es el destino ideal para los amantes del alpinismo y la aventura extrema.",
+      "categorias": ["naturaleza", "aventura"],
+  "imagen": "img/Monte Everest.jpeg",
+      "paquete": "Expedición",
+      "metodoDePago": "Transferencia bancaria",
+      "trasporte": "Avión"
+    },
+    {
+      "nombre": "Parque Nacional Torres del Paine",
+      "informacion": "Ubicado en la Patagonia chilena, famoso por sus montañas, lagos y glaciares.",
+      "descripcion": "Torres del Paine es ideal para senderismo, fotografía y contacto con la naturaleza.",
+      "categorias": ["naturaleza", "aventura"],
+  "imagen": "img/Parque Nacional Torres del Paine.jpeg",
+      "paquete": "Naturaleza",
+      "metodoDePago": "Efectivo",
+      "trasporte": "Avión"
+    }
+  ],
+  "categorias": {
+    "relax": ["Playa", "Spa", "Resort", "Montaña"],
+    "aventura": ["Excursión", "Deportes extremos", "Senderismo", "Alpinismo"],
+    "cultura": ["Museos", "Gastronomía", "Historia", "Arte"],
+    "naturaleza": ["Montaña", "Cascada", "Selva", "Parque"]
+  },
+  "paquetes": [
+    {
+      "nombre": "Paquete Riviera Maya",
+      "descripcion": "Incluye hospedaje en hotel 5 estrellas, transporte y tour por cenotes.",
+      "precio": 12000,
+      "destinos": ["Playa del Carmen", "Cancún"],
+      "transporte": "Avión",
+      "hospedaje": "Hotel 5 estrellas",
+      "tour": "Cenotes y ruinas mayas"
+    },
+    {
+      "nombre": "Paquete Ciudad de México",
+      "descripcion": "Hospedaje céntrico, transporte y tour gastronómico y cultural.",
+      "precio": 8000,
+      "destinos": ["Ciudad de México"],
+      "transporte": "Autobús",
+      "hospedaje": "Hotel 4 estrellas",
+      "tour": "Museos y gastronomía local"
+    }
+  ],
+  "metodosDePago": [
+    {
+      "id": "mp1",
+      "tipo": "Tarjeta de crédito",
+      "detalles": "Visa, MasterCard, American Express",
+      "paquete": "Paquete Riviera Maya"
+    },
+    {
+      "id": "mp2",
+      "tipo": "Efectivo",
+      "detalles": "Pago en destino",
+      "paquete": "Paquete Ciudad de México"
+    },
+    {
+      "id": "mp3",
+      "tipo": "Transferencia bancaria",
+      "detalles": "Banco Nacional, Clabe 123456789",
+      "paquete": "Paquete Riviera Maya"
+    }
+  ],
+  "reservas": [
+    {
+      "id": "r1",
+      "usuario": "Juan Pérez",
+      "destino": "Playa del Carmen",
+      "paquete": "Paquete Riviera Maya",
+      "fecha": "2025-08-10",
+      "cantidadPersonas": 2,
+      "metodoDePago": "Tarjeta de crédito",
+      "estado": "confirmada"
+    },
+    {
+      "id": "r2",
+      "usuario": "Ana López",
+      "destino": "Ciudad de México",
+      "paquete": "Paquete Ciudad de México",
+      "fecha": "2025-09-05",
+      "cantidadPersonas": 4,
+      "metodoDePago": "Efectivo",
+      "estado": "pendiente"
+    }
+  ]
+}
